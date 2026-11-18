@@ -1,22 +1,48 @@
 <html>
-  <head>
-    <link rel="stylesheet" href="/static/style.css">
-    <link rel="stylesheet" href="/static/bootstrap.min.css">
-  </head>
-  <body>
-    <nav class="navbar navbar-light" style="background-color:darkturquoise; height: 1in;">
-      <h2 style="padding: 0 3%;">Dealerships</h2>
-      <a class="nav-link" style="font-size: larger;" href="/">Home</a>
-      <a class="nav-link" style="font-size: larger;" href="/about">About Us</a>
-      <a class="nav-link active" style="font-size: larger;" href="/contact">Contact Us</a>
-    </nav>
-    <div class="card" style="width: 60%;margin: auto; margin-top:5%; padding: 3%;">
-      <h1>Contact Us</h1>
-      <p>Best Cars Dealership</p>
-      <p>1200 Harbor Drive, Portland, ME 04101</p>
-      <p>Phone: (207) 555-0142</p>
-      <p>Email: sales@bestcars.example.com</p>
-      <p>Hours: Monday to Saturday, 9am to 6pm</p>
+<head>
+<link rel="stylesheet" href="/static/style.css">
+<link rel="stylesheet" href="/static/bootstrap.min.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light" style="background-color:darkturquoise; height: 1in;">
+  <div class="container-fluid">
+    <h2 style="padding-right: 5%;">Dealerships</h2>
+    <div class="collapse navbar-collapse show" id="navbarText">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item"><a class="nav-link" style="font-size: larger;" href="/">Home</a></li>
+        <li class="nav-item"><a class="nav-link" style="font-size: larger;" href="/about">About Us</a></li>
+        <li class="nav-item"><a class="nav-link active" style="font-size: larger;" aria-current="page" href="/contact">Contact Us</a></li>
+      </ul>
     </div>
-  </body>
+  </div>
+</nav>
+
+<div class="card" style="width: 80%; margin: auto; margin-top: 5%;">
+  <div class="banner" name="contact-header">
+    <h1>Contact Us</h1>
+    <p>We would love to hear from you. Reach out by phone, email or stop by any of our showrooms.</p>
+  </div>
+  <div style="display: flex; flex-direction: row; margin: auto;">
+    <div class="card" style="width: 45%;">
+      <img class="card-img-top" src="/static/contactus.png" alt="Customer care team">
+      <div class="card-body">
+        <p class="title">Customer Care</p>
+        <p class="card-text">Questions about a purchase, a service booking or a review.</p>
+        <p>Phone: (555) 010-2200</p>
+        <p>Email: care@bestcars.com</p>
+      </div>
+    </div>
+    <div class="card" style="width: 45%;">
+      <img class="card-img-top" src="/static/cars.jpeg" alt="Sales team">
+      <div class="card-body">
+        <p class="title">Sales and Showroom</p>
+        <p class="card-text">Visit us Monday to Saturday, 9am to 7pm.</p>
+        <p>Phone: (555) 010-2300</p>
+        <p>Email: sales@bestcars.com</p>
+        <p>Address: 100 Main Street, Topeka, KS</p>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
 </html>
