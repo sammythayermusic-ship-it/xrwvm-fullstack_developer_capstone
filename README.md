@@ -1,9 +1,9 @@
-# Best Cars Dealership: Full Stack Application Capstone
+# Full Stack Application Development Capstone Project
 
 Repository name: xrwvm-fullstack_developer_capstone
-Project name: Best Cars Dealership (IBM Full Stack Software Developer Capstone)
+Project name: Full Stack Application Development Capstone Project
 
-A full stack web app for a national car dealership. Customers can browse dealerships, filter them by state, read reviews and post their own review.
+IBM Full Stack Software Developer Professional Certificate capstone. The app is a car dealership portal: customers can browse dealerships, filter them by state, read reviews and post their own review.
 
 ## What is in this repo
 
