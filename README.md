@@ -1,7 +1,7 @@
-# Full Stack Application Development Capstone Project
+# fullstack_developer_capstone
 
 Repository name: xrwvm-fullstack_developer_capstone
-Project name: Full Stack Application Development Capstone Project
+Project name: fullstack_developer_capstone (Full Stack Application Development Capstone Project)
 
 IBM Full Stack Software Developer Professional Certificate capstone. The app is a car dealership portal: customers can browse dealerships, filter them by state, read reviews and post their own review.
 
